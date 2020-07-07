@@ -1,0 +1,29 @@
+https://samples.openweathermap.org/data/2.5/forecast?q=München,DE&appid=b6907d289e10d714a6e88b30761fae22
+
+
+https://samples.openweathermap.org/data/2.5/weather
+
+
+? //начало GET запроса
+q=London,uk //параметр
+& //разделитель параметров
+appid=b6907d289e10d714a6e88b30761fae22
+
+
+https://www.google.ru/search
+?
+newwindow=1
+&
+sxsrf=ACYBGNQgGOSUDuLuPcYZ9u0wovVq1XcQtg%3A1575390919303&source=hp
+&
+ei=x47mXcT9D6eyrgSQvpvIDg
+&
+q=get
+&
+oq=get
+&
+gs_l=psy-ab.3..35i39l2j0l3j0i131j0j0i131j0j0i131.2072.2289..3004...2.0..0.78.216.3......0....1..gws-wiz.....10..35i362i39.TvTWIRjhhoM
+&
+ved=0ahUKEwiE_f_A9JnmAhUnmYsKHRDfBukQ4dUDCAY
+&
+uact=5

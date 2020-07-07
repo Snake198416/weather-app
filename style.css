@@ -1,0 +1,25 @@
+html, body {
+    font-family: serif;
+}
+body {
+    margin: 20px;
+}
+
+.card {
+    margin: 20px;
+    float: left;
+}
+
+.dropdown {
+    margin: 20px;
+}
+
+.city-name {
+    margin: 20px;
+}
+
+.card-body {
+    border: 2px solid lightslategray;
+    border-radius: 3px;
+}
+

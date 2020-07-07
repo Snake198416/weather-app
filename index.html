@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Project with API</title>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+            Choose your city and push Refresh
+        </button>
+        <h4 class="card-title city-name">Your City</h4>
+        <div class="dropdown-menu city-list" aria-labelledby="dropdownMenuButton">
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h4 class="card-title city-name-in-card">City</h4>
+            <p class="card-title local-time">local time</p>
+            <h3 class="card-text temperature">Temperature &deg;</h3>
+            <p class="card-text temperature-min">min t &deg;</p>
+            <p class="card-text temperature-max">max t &deg;</p>
+            <p class="weather-icon"><img src="https://openweathermap.org/img/wn/02d@2x.png" alt=""
+                                                        class="img-thumbnail"></p>
+            <p class="weather">Weather description</p>
+            <p class="clouds">Clouds</p>
+            <button class="btn btn-secondary btn-block justify-content-center btn-refresh">Refresh</button>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <h4 class="card-title city-name"><mark>Additional Info</mark></h4>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item pressure">Pressure</li>
+            <li class="list-group-item humidity">Humidity</li>
+            <li class="list-group-item wind-speed ">Wind speed</li>
+            <li class="list-group-item wind-direction">Wind direction</li>
+            <li class="list-group-item sunrise">Sunrise</li>
+            <li class="list-group-item sunset">Sunset</li>
+            <li class="list-group-item visibility">Visibility</li>
+        </ul>
+    </div>
+
+</div>
+
+<script src="functions.js"></script>
+<script src="script.js"></script>
+<script src="jQuery.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
